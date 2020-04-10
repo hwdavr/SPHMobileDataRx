@@ -9,8 +9,8 @@
 import UIKit
 
 class MobileDataTableItemCell: UITableViewCell {
-    static internal let HEIGHT = CGFloat(56)
-    static internal let REUSE_IDENTIFIER = "MobileDataTableItemCell"
+    internal static let HEIGHT = CGFloat(56)
+    internal static let ReuseIdentifier = "MobileDataTableItemCell"
     
     internal let lblYear = UILabel()
     internal var lblVolume = UILabel()
@@ -52,13 +52,13 @@ class MobileDataTableItemCell: UITableViewCell {
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: .default, reuseIdentifier: MobileDataTableItemCell.REUSE_IDENTIFIER)
+        super.init(style: .default, reuseIdentifier: MobileDataTableItemCell.ReuseIdentifier)
         initialize()
     }
     
     required init(coder aDecoder: NSCoder) {
         //super.init(coder: aDecoder)
-        super.init(style: .default, reuseIdentifier: MobileDataTableItemCell.REUSE_IDENTIFIER)
+        super.init(style: .default, reuseIdentifier: MobileDataTableItemCell.ReuseIdentifier)
         initialize()
     }
     

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		068734FE4306BC62325A567D /* Pods_MobileDataUsage_MobileDataUsageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BB9722968983D6F1AF8C3A /* Pods_MobileDataUsage_MobileDataUsageUITests.framework */; };
+		0634C4CE721A53CAD3CDDA9E /* libPods-MobileDataUsageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D26D7A5599E6707C2A029B8 /* libPods-MobileDataUsageUITests.a */; };
 		24F2B32CB59BD510A21D096B /* Pods_MobileDataUsage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C70B1890EE0044381BEC628 /* Pods_MobileDataUsage.framework */; };
 		841FB90E23CF4ABA00A51A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB90D23CF4ABA00A51A1C /* AppDelegate.swift */; };
 		841FB91823CF4ABA00A51A1C /* MobileDataUsage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841FB91623CF4ABA00A51A1C /* MobileDataUsage.xcdatamodeld */; };
@@ -36,7 +36,7 @@
 		848318DE23DF0FCF00206B2F /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318B323DD99CC00206B2F /* NetworkApi.swift */; };
 		848318DF23DF0FD100206B2F /* YearMobileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318B823DE89DD00206B2F /* YearMobileData.swift */; };
 		848318E023DF0FD400206B2F /* YearMobileDataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318BA23DE90D800206B2F /* YearMobileDataResult.swift */; };
-		E44878C0136BC0DD06EAC550 /* Pods_MobileDataUsageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D02551269CB186833F9F15B /* Pods_MobileDataUsageTests.framework */; };
+		F19DE1D112D5529089DEA88D /* libPods-MobileDataUsageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EEFC470CA0F62E909A8DE7 /* libPods-MobileDataUsageTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,8 @@
 /* Begin PBXFileReference section */
 		2799B31F558797A608150716 /* Pods-MobileDataUsage-MobileDataUsageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage-MobileDataUsageUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage-MobileDataUsageUITests/Pods-MobileDataUsage-MobileDataUsageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C70B1890EE0044381BEC628 /* Pods_MobileDataUsage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileDataUsage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D02551269CB186833F9F15B /* Pods_MobileDataUsageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileDataUsageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D26D7A5599E6707C2A029B8 /* libPods-MobileDataUsageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDataUsageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EEFC470CA0F62E909A8DE7 /* libPods-MobileDataUsageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDataUsageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FC80DC72FF04214AFF36E2 /* Pods-MobileDataUsageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsageUITests.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsageUITests/Pods-MobileDataUsageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		841FB90A23CF4ABA00A51A1C /* MobileDataUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDataUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841FB90D23CF4ABA00A51A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		848318E923DF1C6700206B2F /* libswiftXCTest.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftXCTest.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftXCTest.dylib"; sourceTree = DEVELOPER_DIR; };
 		84D0051863C237E14573A214 /* Pods-MobileDataUsageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsageTests.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsageTests/Pods-MobileDataUsageTests.release.xcconfig"; sourceTree = "<group>"; };
 		88C47FDD06FD19AE0DDE4A61 /* Pods-MobileDataUsageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsageTests.debug.xcconfig"; path = "Target Support Files/Pods-MobileDataUsageTests/Pods-MobileDataUsageTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6BB9722968983D6F1AF8C3A /* Pods_MobileDataUsage_MobileDataUsageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileDataUsage_MobileDataUsageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89E435B90203279952B55D6 /* Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage-MobileDataUsageUITests/Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D80526A27739B12D8CBD60F1 /* Pods-MobileDataUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage/Pods-MobileDataUsage.release.xcconfig"; sourceTree = "<group>"; };
 		DD25D6950B0950BFC1061B74 /* Pods-MobileDataUsageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsageUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobileDataUsageUITests/Pods-MobileDataUsageUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44878C0136BC0DD06EAC550 /* Pods_MobileDataUsageTests.framework in Frameworks */,
+				F19DE1D112D5529089DEA88D /* libPods-MobileDataUsageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068734FE4306BC62325A567D /* Pods_MobileDataUsage_MobileDataUsageUITests.framework in Frameworks */,
+				0634C4CE721A53CAD3CDDA9E /* libPods-MobileDataUsageUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +315,8 @@
 				848318E723DF1B2B00206B2F /* libswiftXCTest.tbd */,
 				848318E123DF186D00206B2F /* libswiftXCTest.dylib */,
 				2C70B1890EE0044381BEC628 /* Pods_MobileDataUsage.framework */,
-				4D02551269CB186833F9F15B /* Pods_MobileDataUsageTests.framework */,
-				C6BB9722968983D6F1AF8C3A /* Pods_MobileDataUsage_MobileDataUsageUITests.framework */,
+				2D26D7A5599E6707C2A029B8 /* libPods-MobileDataUsageUITests.a */,
+				62EEFC470CA0F62E909A8DE7 /* libPods-MobileDataUsageTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -329,9 +329,11 @@
 			buildConfigurationList = 841FB93723CF4AC000A51A1C /* Build configuration list for PBXNativeTarget "MobileDataUsage" */;
 			buildPhases = (
 				0916F8ACE34FC724E5FF7CE5 /* [CP] Check Pods Manifest.lock */,
+				8A3877192440669000C82877 /* Run Script - SwiftLint */,
 				841FB90623CF4ABA00A51A1C /* Sources */,
 				841FB90723CF4ABA00A51A1C /* Frameworks */,
 				841FB90823CF4ABA00A51A1C /* Resources */,
+				26753CFA4DE106F6AE67FC61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -474,6 +476,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		26753CFA4DE106F6AE67FC61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileDataUsage/Pods-MobileDataUsage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileDataUsage/Pods-MobileDataUsage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileDataUsage/Pods-MobileDataUsage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3877192440669000C82877 /* Run Script - SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		9C4B8F3424877A43E974DCF4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,7 +526,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MobileDataUsage-MobileDataUsageUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MobileDataUsageUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -835,7 +872,7 @@
 		};
 		841FB93E23CF4AC000A51A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2799B31F558797A608150716 /* Pods-MobileDataUsage-MobileDataUsageUITests.debug.xcconfig */;
+			baseConfigurationReference = DD25D6950B0950BFC1061B74 /* Pods-MobileDataUsageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -857,7 +894,7 @@
 		};
 		841FB93F23CF4AC000A51A1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C89E435B90203279952B55D6 /* Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig */;
+			baseConfigurationReference = 81FC80DC72FF04214AFF36E2 /* Pods-MobileDataUsageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

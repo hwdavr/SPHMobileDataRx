@@ -17,7 +17,7 @@ protocol NetworkService {
 class NetworkApi: NetworkService {
     
     private func parsingData(data: Data) -> [YearMobileData] {
-        if let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+        if let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
             if let result = json["result"] as? [String: Any] {
                 if let records = result["records"] as? [[String: Any]] {
                     var mobileDataDict = [String: YearMobileData]()

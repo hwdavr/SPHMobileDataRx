@@ -6,6 +6,7 @@
 //  Copyright © 2020 sph. All rights reserved.
 //
 
+@testable import MobileDataUsage
 import XCTest
 import RxBlocking
 

@@ -6,7 +6,8 @@ target 'MobileDataUsage' do
   use_frameworks!
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
-
+  pod 'SwiftLint'
+  pod 'DIKit', '~> 1.4'
   # Pods for MobileDataUsage
 
 
@@ -14,10 +15,10 @@ end
 
 target 'MobileDataUsageTests' do
   inherit! :search_paths
-  use_frameworks!
+#  use_frameworks!
   # Pods for testing
-  pod 'RxSwift', '~> 5'
-  pod 'RxCocoa', '~> 5'
+#  pod 'RxSwift', '~> 5'
+#  pod 'RxCocoa', '~> 5'
   pod 'RxBlocking', '~> 5'
   pod 'RxTest', '~> 5'
 end

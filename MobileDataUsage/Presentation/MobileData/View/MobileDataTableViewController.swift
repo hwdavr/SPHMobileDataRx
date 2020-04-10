@@ -35,7 +35,7 @@ class MobileDataTableViewController: UITableViewController {
         tableView.delegate = nil
         tableView.dataSource = nil
         
-        tableView.register(MobileDataTableItemCell.self, forCellReuseIdentifier: MobileDataTableItemCell.REUSE_IDENTIFIER)
+        tableView.register(MobileDataTableItemCell.self, forCellReuseIdentifier: MobileDataTableItemCell.ReuseIdentifier)
         
         bindViewModel()
     }
@@ -48,7 +48,7 @@ extension MobileDataTableViewController {
         let output = viewModel.transform(input: nil)
             
         output.mobileDataItems
-            .drive(tableView.rx.items(cellIdentifier: MobileDataTableItemCell.REUSE_IDENTIFIER, cellType: MobileDataTableItemCell.self)) { (row, element, cell) in
+            .drive(tableView.rx.items(cellIdentifier: MobileDataTableItemCell.ReuseIdentifier, cellType: MobileDataTableItemCell.self)) { (row, element, cell) in
                 cell.lblYear.text = element.year
                 cell.lblVolume.text = element.volume
                 cell.btnDropped.isHidden = !element.decreased
