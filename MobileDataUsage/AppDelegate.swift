@@ -14,6 +14,8 @@ import DIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    private var applicationCoordinator: MainCoordinator?
+    
 
     override init() {
         super.init()
@@ -25,14 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow(frame: UIScreen.main.bounds)
-
-        if let window = window {
-            let viewController = MobileDataTableViewController.build()
-
-            window.rootViewController = UINavigationController(rootViewController: viewController)
-            window.makeKeyAndVisible()
-        }
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        self.applicationCoordinator = MainCoordinator(window: self.window!)
+        self.applicationCoordinator?.start()
 
         return true
     }

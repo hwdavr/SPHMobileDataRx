@@ -39,6 +39,9 @@
 		8A38771D24406F0600C82877 /* ViewModelModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38771C24406F0600C82877 /* ViewModelModule.swift */; };
 		8A38771F244071D600C82877 /* NetworkApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38771E244071D600C82877 /* NetworkApiModule.swift */; };
 		8A3877212440729500C82877 /* RepositoryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877202440729500C82877 /* RepositoryModule.swift */; };
+		8A3877242440992200C82877 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877232440992200C82877 /* MainCoordinator.swift */; };
+		8A3877262440A04000C82877 /* BaseNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877252440A04000C82877 /* BaseNavigator.swift */; };
+		8A3877282440A08D00C82877 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877272440A08D00C82877 /* HomeNavigator.swift */; };
 		F19DE1D112D5529089DEA88D /* libPods-MobileDataUsageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EEFC470CA0F62E909A8DE7 /* libPods-MobileDataUsageTests.a */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +104,9 @@
 		8A38771C24406F0600C82877 /* ViewModelModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelModule.swift; sourceTree = "<group>"; };
 		8A38771E244071D600C82877 /* NetworkApiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApiModule.swift; sourceTree = "<group>"; };
 		8A3877202440729500C82877 /* RepositoryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModule.swift; sourceTree = "<group>"; };
+		8A3877232440992200C82877 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		8A3877252440A04000C82877 /* BaseNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigator.swift; sourceTree = "<group>"; };
+		8A3877272440A08D00C82877 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
 		C89E435B90203279952B55D6 /* Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage-MobileDataUsageUITests/Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D80526A27739B12D8CBD60F1 /* Pods-MobileDataUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage/Pods-MobileDataUsage.release.xcconfig"; sourceTree = "<group>"; };
 		DD25D6950B0950BFC1061B74 /* Pods-MobileDataUsageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsageUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobileDataUsageUITests/Pods-MobileDataUsageUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +216,7 @@
 		841FB94023CF4B6500A51A1C /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				8A387722244098FA00C82877 /* Navigation */,
 				848318A923DC822000206B2F /* Utils */,
 				841FB94123CF4B9400A51A1C /* MobileData */,
 			);
@@ -322,6 +329,16 @@
 				8A3877202440729500C82877 /* RepositoryModule.swift */,
 			);
 			path = DI;
+			sourceTree = "<group>";
+		};
+		8A387722244098FA00C82877 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8A3877232440992200C82877 /* MainCoordinator.swift */,
+				8A3877252440A04000C82877 /* BaseNavigator.swift */,
+				8A3877272440A08D00C82877 /* HomeNavigator.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		FEDA8B7F31E895AC968A5269 /* Frameworks */ = {
@@ -585,8 +602,11 @@
 				841FB94923CF509C00A51A1C /* MobileDataTableViewModel.swift in Sources */,
 				848318B923DE89DD00206B2F /* YearMobileData.swift in Sources */,
 				848318C623DEEA3C00206B2F /* DefaultMobileDataRepository.swift in Sources */,
+				8A3877282440A08D00C82877 /* HomeNavigator.swift in Sources */,
 				841FB94D23CF523A00A51A1C /* MobileDataTableItemViewModel.swift in Sources */,
+				8A3877242440992200C82877 /* MainCoordinator.swift in Sources */,
 				841FB94723CF505600A51A1C /* MobileDataTableViewController.swift in Sources */,
+				8A3877262440A04000C82877 /* BaseNavigator.swift in Sources */,
 				841FB90E23CF4ABA00A51A1C /* AppDelegate.swift in Sources */,
 				848318B423DD99CC00206B2F /* NetworkApi.swift in Sources */,
 				8A38771D24406F0600C82877 /* ViewModelModule.swift in Sources */,

@@ -20,6 +20,7 @@ class MobileDataTableViewController: UITableViewController {
     static func build() -> MobileDataTableViewController {
         let storageBoard = UIStoryboard(name: "MobileDataTableView", bundle: nil)
         let viewController = storageBoard.instantiateViewController(withIdentifier: "mobileDataTableView")
+        viewController.title = "Mobile Data"
         guard let mViewController = viewController as? MobileDataTableViewController else {
             fatalError("Cannot instantiate view controller")
         }
