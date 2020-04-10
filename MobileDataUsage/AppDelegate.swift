@@ -8,23 +8,32 @@
 
 import UIKit
 import CoreData
+import DIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    override init() {
+        super.init()
+        DependencyContainer.defined(by: modules {
+            DependencyContainer.viewModel
+            DependencyContainer.api
+            DependencyContainer.repository
+        })
+    }
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        
+
         if let window = window {
-            let viewModel = MobileDataTableViewModel()
-            let viewController = MobileDataTableViewController.build(with: viewModel)
-            
+            let viewController = MobileDataTableViewController.build()
+
             window.rootViewController = UINavigationController(rootViewController: viewController)
             window.makeKeyAndVisible()
         }
-        
+
         return true
     }
 

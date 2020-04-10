@@ -15,13 +15,13 @@ class MobileDataTableItemCell: UITableViewCell {
     internal let lblYear = UILabel()
     internal var lblVolume = UILabel()
     internal var btnDropped = UIButton()
-    var btnHeightConstraint : NSLayoutConstraint!
-    var btnWidthConstraint : NSLayoutConstraint!
-    
+    var btnHeightConstraint: NSLayoutConstraint!
+    var btnWidthConstraint: NSLayoutConstraint!
+
     let btnSize = 24.0 as CGFloat
     
     func initialize() {
-        btnDropped.setImage(UIImage(named:"decrease.png"), for: .normal)
+        btnDropped.setImage(UIImage(named: "decrease.png"), for: .normal)
         btnDropped.contentMode = .scaleAspectFit
         btnDropped.addTarget(self, action: #selector(droppedButtonAction(_:)), for: .touchDown)
         contentView.addSubview(btnDropped)

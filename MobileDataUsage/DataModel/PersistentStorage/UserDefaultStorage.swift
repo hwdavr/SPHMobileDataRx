@@ -10,7 +10,6 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-
 final class UserDefaultsStorage: MobileDataStorage {
     private let mobileDataQueriesKey = "mobileDataQueries"
     private var userDefaults: UserDefaults { return UserDefaults.standard }

@@ -9,37 +9,36 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import DIKit
 
 class MobileDataTableViewController: UITableViewController {
-    private(set) var viewModel: MobileDataTableViewModel!
+    @Inject var viewModel: MobileDataTableViewModel
 
     private let disposeBag = DisposeBag()
     
     // Builder pattern
-    static func build(with viewModel: MobileDataTableViewModel) -> MobileDataTableViewController {
+    static func build() -> MobileDataTableViewController {
         let storageBoard = UIStoryboard(name: "MobileDataTableView", bundle: nil)
         let viewController = storageBoard.instantiateViewController(withIdentifier: "mobileDataTableView")
         guard let mViewController = viewController as? MobileDataTableViewController else {
             fatalError("Cannot instantiate view controller")
         }
-        mViewController.viewModel = viewModel
         return mViewController
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         tableView.estimatedRowHeight = MobileDataTableItemCell.HEIGHT
         tableView.rowHeight = MobileDataTableItemCell.HEIGHT
-        
+
         tableView.delegate = nil
         tableView.dataSource = nil
-        
+
         tableView.register(MobileDataTableItemCell.self, forCellReuseIdentifier: MobileDataTableItemCell.ReuseIdentifier)
-        
+
         bindViewModel()
     }
-    
 }
 
 extension MobileDataTableViewController {

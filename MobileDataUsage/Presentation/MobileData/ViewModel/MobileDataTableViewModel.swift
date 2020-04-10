@@ -24,8 +24,8 @@ class MobileDataTableViewModel: ViewModelType {
     }
     
     func transform(input: MobileDataTableViewModel.Input?) -> MobileDataTableViewModel.Output {
-        let repository = DefaultMobileDataRepository(apiService: NetworkApi(), storage: UserDefaultsStorage())
-        
+        let repository = DefaultMobileDataRepository()
+
         let mobileDataViewModels = repository
             .mobileDataDrive()
             .asDriver(onErrorJustReturn: [])

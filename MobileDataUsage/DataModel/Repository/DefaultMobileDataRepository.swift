@@ -9,16 +9,13 @@
 import Foundation
 import RxSwift
 import RxCocoa
+import DIKit
 
 class DefaultMobileDataRepository {
-    private let apiService: NetworkService!
-    private let storage: MobileDataStorage!
-    
-    init(apiService: NetworkService, storage: MobileDataStorage) {
-        self.apiService = apiService
-        self.storage = storage
-    }
-    
+    @Inject var apiService: NetworkService
+    @Inject var storage: MobileDataStorage
+
+
     func mobileDataDrive() -> SharedSequence<DriverSharingStrategy, [YearMobileData]> {
         let storedMobileData = storage.reactiveMobileData().asDriver(onErrorJustReturn: [])
         
