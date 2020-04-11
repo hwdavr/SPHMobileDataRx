@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     private var applicationCoordinator: MainCoordinator?
-    
 
     override init() {
         super.init()

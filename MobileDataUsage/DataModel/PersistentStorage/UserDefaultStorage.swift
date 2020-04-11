@@ -9,10 +9,11 @@
 import Foundation
 import RxSwift
 import RxCocoa
+import DIKit
 
 final class UserDefaultsStorage: MobileDataStorage {
     private let mobileDataQueriesKey = "mobileDataQueries"
-    private var userDefaults: UserDefaults { return UserDefaults.standard }
+    @Inject var userDefaults: UserDefaults
     
     func saveMobileData(mobileData: YearMobileDataResults) {
         let encoder = JSONEncoder()

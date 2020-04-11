@@ -11,6 +11,6 @@ import DIKit
 public extension DependencyContainer {
     static var api = module {
         // Inject new instance 
-        factory { NetworkApi() as NetworkService }
+        single { NetworkApi() as NetworkService }
     }
 }

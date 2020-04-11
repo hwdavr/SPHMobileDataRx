@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0634C4CE721A53CAD3CDDA9E /* libPods-MobileDataUsageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D26D7A5599E6707C2A029B8 /* libPods-MobileDataUsageUITests.a */; };
 		24F2B32CB59BD510A21D096B /* Pods_MobileDataUsage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C70B1890EE0044381BEC628 /* Pods_MobileDataUsage.framework */; };
 		841FB90E23CF4ABA00A51A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB90D23CF4ABA00A51A1C /* AppDelegate.swift */; };
 		841FB91823CF4ABA00A51A1C /* MobileDataUsage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841FB91623CF4ABA00A51A1C /* MobileDataUsage.xcdatamodeld */; };
@@ -30,19 +29,35 @@
 		848318C623DEEA3C00206B2F /* DefaultMobileDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C523DEEA3C00206B2F /* DefaultMobileDataRepository.swift */; };
 		848318C823DEEAE500206B2F /* MobileDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C723DEEAE500206B2F /* MobileDataStorage.swift */; };
 		848318CE23DF08FD00206B2F /* NetworkApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318CD23DF08FD00206B2F /* NetworkApiTest.swift */; };
-		848318DB23DF0FC600206B2F /* DefaultMobileDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C523DEEA3C00206B2F /* DefaultMobileDataRepository.swift */; };
-		848318DC23DF0FC900206B2F /* UserDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C123DEC17E00206B2F /* UserDefaultStorage.swift */; };
-		848318DD23DF0FCC00206B2F /* MobileDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C723DEEAE500206B2F /* MobileDataStorage.swift */; };
-		848318DE23DF0FCF00206B2F /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318B323DD99CC00206B2F /* NetworkApi.swift */; };
-		848318DF23DF0FD100206B2F /* YearMobileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318B823DE89DD00206B2F /* YearMobileData.swift */; };
-		848318E023DF0FD400206B2F /* YearMobileDataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318BA23DE90D800206B2F /* YearMobileDataResult.swift */; };
 		8A38771D24406F0600C82877 /* ViewModelModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38771C24406F0600C82877 /* ViewModelModule.swift */; };
 		8A38771F244071D600C82877 /* NetworkApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38771E244071D600C82877 /* NetworkApiModule.swift */; };
 		8A3877212440729500C82877 /* RepositoryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877202440729500C82877 /* RepositoryModule.swift */; };
 		8A3877242440992200C82877 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877232440992200C82877 /* MainCoordinator.swift */; };
 		8A3877262440A04000C82877 /* BaseNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877252440A04000C82877 /* BaseNavigator.swift */; };
 		8A3877282440A08D00C82877 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877272440A08D00C82877 /* HomeNavigator.swift */; };
-		F19DE1D112D5529089DEA88D /* libPods-MobileDataUsageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EEFC470CA0F62E909A8DE7 /* libPods-MobileDataUsageTests.a */; };
+		8A38772B2440A34400C82877 /* UserDefaultStorageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38772A2440A34400C82877 /* UserDefaultStorageTest.swift */; };
+		8A387732244196C900C82877 /* DefaultMobileDataRepoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A387731244196C900C82877 /* DefaultMobileDataRepoTest.swift */; };
+		8A38773F24419E2000C82877 /* DefaultMobileDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C523DEEA3C00206B2F /* DefaultMobileDataRepository.swift */; };
+		8A38774024419E4800C82877 /* UserDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C123DEC17E00206B2F /* UserDefaultStorage.swift */; };
+		8A38774124419E4A00C82877 /* MobileDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318C723DEEAE500206B2F /* MobileDataStorage.swift */; };
+		8A38774224419E4C00C82877 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318B323DD99CC00206B2F /* NetworkApi.swift */; };
+		8A38774324419E5D00C82877 /* YearMobileDataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318BA23DE90D800206B2F /* YearMobileDataResult.swift */; };
+		8A38774424419E5F00C82877 /* YearMobileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318B823DE89DD00206B2F /* YearMobileData.swift */; };
+		8A3877452441A22100C82877 /* ViewModelModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38771C24406F0600C82877 /* ViewModelModule.swift */; };
+		8A3877462441A22300C82877 /* NetworkApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38771E244071D600C82877 /* NetworkApiModule.swift */; };
+		8A3877472441A22600C82877 /* RepositoryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877202440729500C82877 /* RepositoryModule.swift */; };
+		8A3877482441A23200C82877 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877232440992200C82877 /* MainCoordinator.swift */; };
+		8A3877492441A23400C82877 /* BaseNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877252440A04000C82877 /* BaseNavigator.swift */; };
+		8A38774A2441A23600C82877 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877272440A08D00C82877 /* HomeNavigator.swift */; };
+		8A38774B2441A23800C82877 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318AA23DC835A00206B2F /* UIViewController+Rx.swift */; };
+		8A38774C2441A23900C82877 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848318AB23DC835A00206B2F /* ViewModelType.swift */; };
+		8A38774D2441A23B00C82877 /* MobileDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB94623CF505600A51A1C /* MobileDataTableViewController.swift */; };
+		8A38774E2441A23D00C82877 /* MobileDataTableItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB94A23CF50C500A51A1C /* MobileDataTableItemCell.swift */; };
+		8A38774F2441A24000C82877 /* MobileDataTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB94823CF509C00A51A1C /* MobileDataTableViewModel.swift */; };
+		8A3877502441A24200C82877 /* MobileDataTableItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB94C23CF523900A51A1C /* MobileDataTableItemViewModel.swift */; };
+		8A3877522441A74E00C82877 /* TestSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3877512441A74E00C82877 /* TestSetup.swift */; };
+		924B38632D8D046BD1945C70 /* libPods-MobileDataUsageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2B489571A9C55920F7B078 /* libPods-MobileDataUsageTests.a */; };
+		A644858C6519E3A45163077B /* libPods-MobileDataUsageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC617B0CC295310D1FD3F4 /* libPods-MobileDataUsageUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +80,8 @@
 /* Begin PBXFileReference section */
 		2799B31F558797A608150716 /* Pods-MobileDataUsage-MobileDataUsageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage-MobileDataUsageUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage-MobileDataUsageUITests/Pods-MobileDataUsage-MobileDataUsageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C70B1890EE0044381BEC628 /* Pods_MobileDataUsage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileDataUsage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D26D7A5599E6707C2A029B8 /* libPods-MobileDataUsageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDataUsageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62EEFC470CA0F62E909A8DE7 /* libPods-MobileDataUsageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDataUsageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2B489571A9C55920F7B078 /* libPods-MobileDataUsageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDataUsageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECC617B0CC295310D1FD3F4 /* libPods-MobileDataUsageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDataUsageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FC80DC72FF04214AFF36E2 /* Pods-MobileDataUsageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsageUITests.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsageUITests/Pods-MobileDataUsageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		841FB90A23CF4ABA00A51A1C /* MobileDataUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDataUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841FB90D23CF4ABA00A51A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +122,9 @@
 		8A3877232440992200C82877 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		8A3877252440A04000C82877 /* BaseNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigator.swift; sourceTree = "<group>"; };
 		8A3877272440A08D00C82877 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
+		8A38772A2440A34400C82877 /* UserDefaultStorageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorageTest.swift; sourceTree = "<group>"; };
+		8A387731244196C900C82877 /* DefaultMobileDataRepoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMobileDataRepoTest.swift; sourceTree = "<group>"; };
+		8A3877512441A74E00C82877 /* TestSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSetup.swift; sourceTree = "<group>"; };
 		C89E435B90203279952B55D6 /* Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage-MobileDataUsageUITests/Pods-MobileDataUsage-MobileDataUsageUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D80526A27739B12D8CBD60F1 /* Pods-MobileDataUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsage.release.xcconfig"; path = "Target Support Files/Pods-MobileDataUsage/Pods-MobileDataUsage.release.xcconfig"; sourceTree = "<group>"; };
 		DD25D6950B0950BFC1061B74 /* Pods-MobileDataUsageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDataUsageUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobileDataUsageUITests/Pods-MobileDataUsageUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19DE1D112D5529089DEA88D /* libPods-MobileDataUsageTests.a in Frameworks */,
+				924B38632D8D046BD1945C70 /* libPods-MobileDataUsageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0634C4CE721A53CAD3CDDA9E /* libPods-MobileDataUsageUITests.a in Frameworks */,
+				A644858C6519E3A45163077B /* libPods-MobileDataUsageUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +217,7 @@
 			children = (
 				848318CB23DF08CC00206B2F /* DataModel */,
 				841FB92723CF4AC000A51A1C /* MobileDataUsageTests.swift */,
+				8A3877512441A74E00C82877 /* TestSetup.swift */,
 				841FB92923CF4AC000A51A1C /* Info.plist */,
 			);
 			path = MobileDataUsageTests;
@@ -308,6 +327,8 @@
 		848318CB23DF08CC00206B2F /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				8A387730244196B100C82877 /* Repository */,
+				8A3877292440A31C00C82877 /* PersistentStorage */,
 				848318CC23DF08DC00206B2F /* Api */,
 			);
 			path = DataModel;
@@ -341,6 +362,22 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		8A3877292440A31C00C82877 /* PersistentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8A38772A2440A34400C82877 /* UserDefaultStorageTest.swift */,
+			);
+			path = PersistentStorage;
+			sourceTree = "<group>";
+		};
+		8A387730244196B100C82877 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8A387731244196C900C82877 /* DefaultMobileDataRepoTest.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		FEDA8B7F31E895AC968A5269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,8 +386,8 @@
 				848318E723DF1B2B00206B2F /* libswiftXCTest.tbd */,
 				848318E123DF186D00206B2F /* libswiftXCTest.dylib */,
 				2C70B1890EE0044381BEC628 /* Pods_MobileDataUsage.framework */,
-				2D26D7A5599E6707C2A029B8 /* libPods-MobileDataUsageUITests.a */,
-				62EEFC470CA0F62E909A8DE7 /* libPods-MobileDataUsageTests.a */,
+				7A2B489571A9C55920F7B078 /* libPods-MobileDataUsageTests.a */,
+				7ECC617B0CC295310D1FD3F4 /* libPods-MobileDataUsageUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -431,7 +468,6 @@
 					};
 					841FB92223CF4AC000A51A1C = {
 						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 841FB90923CF4ABA00A51A1C;
 					};
 					841FB92D23CF4AC000A51A1C = {
 						CreatedOnToolsVersion = 11.3;
@@ -623,14 +659,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848318DC23DF0FC900206B2F /* UserDefaultStorage.swift in Sources */,
-				848318DF23DF0FD100206B2F /* YearMobileData.swift in Sources */,
-				848318DB23DF0FC600206B2F /* DefaultMobileDataRepository.swift in Sources */,
-				848318DD23DF0FCC00206B2F /* MobileDataStorage.swift in Sources */,
-				848318DE23DF0FCF00206B2F /* NetworkApi.swift in Sources */,
+				8A38774024419E4800C82877 /* UserDefaultStorage.swift in Sources */,
+				8A38774E2441A23D00C82877 /* MobileDataTableItemCell.swift in Sources */,
+				8A3877502441A24200C82877 /* MobileDataTableItemViewModel.swift in Sources */,
+				8A3877482441A23200C82877 /* MainCoordinator.swift in Sources */,
+				8A38774A2441A23600C82877 /* HomeNavigator.swift in Sources */,
+				8A38774124419E4A00C82877 /* MobileDataStorage.swift in Sources */,
+				8A3877522441A74E00C82877 /* TestSetup.swift in Sources */,
+				8A38772B2440A34400C82877 /* UserDefaultStorageTest.swift in Sources */,
+				8A3877472441A22600C82877 /* RepositoryModule.swift in Sources */,
+				8A38774324419E5D00C82877 /* YearMobileDataResult.swift in Sources */,
+				8A3877452441A22100C82877 /* ViewModelModule.swift in Sources */,
+				8A38774C2441A23900C82877 /* ViewModelType.swift in Sources */,
+				8A387732244196C900C82877 /* DefaultMobileDataRepoTest.swift in Sources */,
+				8A38774B2441A23800C82877 /* UIViewController+Rx.swift in Sources */,
 				841FB92823CF4AC000A51A1C /* MobileDataUsageTests.swift in Sources */,
+				8A38774D2441A23B00C82877 /* MobileDataTableViewController.swift in Sources */,
+				8A3877462441A22300C82877 /* NetworkApiModule.swift in Sources */,
+				8A38773F24419E2000C82877 /* DefaultMobileDataRepository.swift in Sources */,
 				848318CE23DF08FD00206B2F /* NetworkApiTest.swift in Sources */,
-				848318E023DF0FD400206B2F /* YearMobileDataResult.swift in Sources */,
+				8A38774424419E5F00C82877 /* YearMobileData.swift in Sources */,
+				8A38774224419E4C00C82877 /* NetworkApi.swift in Sources */,
+				8A38774F2441A24000C82877 /* MobileDataTableViewModel.swift in Sources */,
+				8A3877492441A23400C82877 /* BaseNavigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,7 +891,6 @@
 			baseConfigurationReference = 88C47FDD06FD19AE0DDE4A61 /* Pods-MobileDataUsageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = DFM84XB9EC;
@@ -868,7 +918,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileDataUsage.app/MobileDataUsage";
 			};
 			name = Debug;
 		};
@@ -877,7 +926,6 @@
 			baseConfigurationReference = 84D0051863C237E14573A214 /* Pods-MobileDataUsageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = DFM84XB9EC;
@@ -906,7 +954,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileDataUsage.app/MobileDataUsage";
 			};
 			name = Release;
 		};

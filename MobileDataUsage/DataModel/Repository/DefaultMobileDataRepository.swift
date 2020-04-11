@@ -15,7 +15,6 @@ class DefaultMobileDataRepository {
     @Inject var apiService: NetworkService
     @Inject var storage: MobileDataStorage
 
-
     func mobileDataDrive() -> SharedSequence<DriverSharingStrategy, [YearMobileData]> {
         let storedMobileData = storage.reactiveMobileData().asDriver(onErrorJustReturn: [])
         
